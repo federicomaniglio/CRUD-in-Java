@@ -30,7 +30,7 @@ Follow the instructions below to get this project up and running on your local m
 You have two choices here:
 
 1. If you want a quick start, simply use `git clone` for this repository and press start. The required dependencies are included in the lib folder.
-   </br>From here follow _[usage section](README.md#usage)_ 
+   </br>From here follow _[usage section](#usage)_ 
 2. If you'd like to write your code, you have to setup the IDE - this project was developed with IntelliJ</br>
    **Follow this steps only if you want to write your code from blank**
 
