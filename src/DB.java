@@ -2,9 +2,21 @@ import java.sql.*;
 
 public class DB {
 
+    /**
+     * Represents a connection to a database.
+     *
+     * The conn variable is used to establish a connection to a database and execute SQL queries.
+     *
+     * Methods in the DB class utilize the conn variable to execute queries such as SELECT, INSERT, UPDATE, and DELETE.
+     *
+     * This variable should be initialized with a valid Connection object before using any of the database-related methods.
+     */
     private Connection conn;
 
 
+    /**
+     * Represents a connection to a database.
+     */
     public DB(String address, String port, String databaseName, String username, String password) {
         //stringa di connessione -> jdbc:mysql://127.0.0.1:3306/nomeDB
         String dbConnectionString = "jdbc:mysql://" + address + ":" + port + "/" + databaseName;
@@ -96,6 +108,15 @@ public class DB {
         return result;
     }
 
+    /**
+     * Inserts a new record into the "persone" table in the database.
+     *
+     * @param nome    the name of the person
+     * @param cognome the surname of the person
+     * @param eta     the age of the person
+     * @param sesso   the gender of the person
+     * @return true if the insert operation was successful, false otherwise
+     */
     public boolean insertIntoPersone(String nome, String cognome, int eta, String sesso) {
         try {
             if (!conn.isValid(5)) {
@@ -120,6 +141,12 @@ public class DB {
         return true;
     }
 
+    /**
+     * Deletes a record from the "persone" table in the database by name.
+     *
+     * @param nome the name of the record to delete
+     * @return true if the record is successfully deleted, false otherwise
+     */
     public boolean deleteIntoPersoneByName(String nome) {
         try {
             if (!conn.isValid(5)) {
@@ -141,6 +168,16 @@ public class DB {
         return true;
     }
 
+    /**
+     * Updates a record in the "persone" table in the database with the specified ID.
+     *
+     * @param id      the ID of the record to update
+     * @param nome    the new value for the "nome" column
+     * @param cognome the new value for the "cognome" column
+     * @param eta     the new value for the "eta" column
+     * @param sesso   the new value for the "sesso" column
+     * @return true if the record is successfully updated, false otherwise
+     */
     public boolean updateIntoPersonabyID(int id, String nome, String cognome, Integer eta, String sesso) {
         try {
             if (!conn.isValid(5)) {
