@@ -5,16 +5,31 @@ This project demonstrates a simple MySQL CRUD (Create, Read, Update, Delete) ope
 Follow the instructions below to get this project up and running on your local machine:
 
 ### Setup the database
-1. Download and install XAMPP
-2. Start Apache and MySQL modules
+1. Download and install XAMPP</br>
+   </br>
+2. Start Apache and MySQL modules</br>
+   </br>
+   ![how to start apache and mysql on xampp](images/Xampp-start.png)</br>
+   </br>
+3. Open the phpmyadmin interface, pressing config on MySQL method or searching [127.0.0.1/phpmyadmi](http://127.0.0.1/phpmyadmin) </br>
+   </br>
+4. Download the [SQL file](database/dbesempio.sql) and import it in the phpmyadmin interface</br>
+   </br>
 
-   ![how to start apache and mysql on xampp](images/Xampp-start.png)
+   ![press import on phpmyadmin](images/main-page-phpmyadmin.png)*Select Import on the interface*</br>
+   </br>
+   ![select the file to import](images/select-import-file.png)*Select the .sql file to import*</br>
+   </br>
+   ![press import on phpmyadmin](images/execute-import.png)*Execute the import*</br>
+   </br>
+![database is created](images/database-created.png)*Database is created*</br>
+   </br>
 
-3. Open the phpmyadmin interface, pressing config on MySQL method or searching [127.0.0.1/phpmyadmi](http://127.0.0.1/phpmyadmin) 
-4. Import the [SQL file](database/dbesempio.sql) provided in the repository to your newly created database
-   ![press import on phpmyadmin](images/main-page-phpmyadmin.png)
+## Setup the IDE
+You have two choices here:
+1. Clone the repository and import the project into your IDE. Make sure to resolve the dependencies.
+2. Start a new project and write it from scratch. Make sure to import the required libraries.
 
-A visual guide on starting Apache and MySQL servers using XAMPP is given below:
 
 
 ## Usage
