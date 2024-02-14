@@ -16,7 +16,7 @@ You can use this repository in two different ways:
    </br>
    ![how to start apache and mysql on xampp](images/Xampp-start.png)</br>
    </br>
-3. Open the phpmyadmin interface, pressing config on MySQL method or searching [127.0.0.1/phpmyadmi](http://127.0.0.1/phpmyadmin) </br>
+3. Open the phpmyadmin interface, pressing config on MySQL method or searching [127.0.0.1/phpmyadmin](http://127.0.0.1/phpmyadmin) </br>
    </br>
 4. Download the [SQL file](database/dbesempio.sql) and import it in the phpmyadmin interface</br>
    </br>
