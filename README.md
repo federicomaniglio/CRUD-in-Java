@@ -267,4 +267,4 @@ public boolean deleteIntoPersoneByName(String nome) {
 Issues, PRs, and all your suggestions and discussions are very welcome!
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
