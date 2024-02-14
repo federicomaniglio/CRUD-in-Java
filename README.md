@@ -1,5 +1,5 @@
 # CRUD-in-Java
-The purpose of this project is to  demonstrates a simple MySQL CRUD (Create, Read, Update, Delete) operation using Java programming language. The project is specifically geared towards beginner Java developers willing to learn and experiment with database operations.
+The purpose of this project is to  demonstrates a simple MySQL [CRUD (Create, Read, Update, Delete) operation](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) using Java programming language. The project is specifically geared towards beginner Java developers willing to learn and experiment with database operations.
 
 You can use this repository in two different ways:
 1. If you want a quick start to see how a CRUD in java works, simply follow  the [usage section](#usage)
